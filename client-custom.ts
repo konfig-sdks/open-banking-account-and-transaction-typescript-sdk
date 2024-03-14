@@ -1,5 +1,5 @@
 import { ConfigurationParameters } from "./configuration";
 
-export class OpenBankingCustom {
+export class OpenBankingAccountAndTransactionCustom {
     constructor(configurationParameters: ConfigurationParameters) {}
 }

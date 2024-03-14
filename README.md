@@ -1,8 +1,8 @@
 <div align="center">
 
-[![Visit Open banking](./header.png)](https://openbanking.org.uk)
+[![Visit Open banking](./header.png)](https://www.openbanking.org.uk&#x2F;)
 
-# [Open banking](https://openbanking.org.uk)<a id="open-banking"></a>
+# [Open banking](https://www.openbanking.org.uk&#x2F;)<a id="open-banking"></a>
 
 Swagger for Account and Transaction API Specification
 
@@ -15,41 +15,41 @@ Swagger for Account and Transaction API Specification
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Reference](#reference)
-  * [`openbanking.accountAccess.createConsent`](#openbankingaccountaccesscreateconsent)
-  * [`openbanking.accountAccess.deleteConsent`](#openbankingaccountaccessdeleteconsent)
-  * [`openbanking.accountAccess.getConsent`](#openbankingaccountaccessgetconsent)
-  * [`openbanking.accounts.get`](#openbankingaccountsget)
-  * [`openbanking.accounts.getAll`](#openbankingaccountsgetall)
-  * [`openbanking.balances.get`](#openbankingbalancesget)
-  * [`openbanking.balances.getAll`](#openbankingbalancesgetall)
-  * [`openbanking.beneficiaries.getAll`](#openbankingbeneficiariesgetall)
-  * [`openbanking.beneficiaries.getAll_0`](#openbankingbeneficiariesgetall_0)
-  * [`openbanking.directDebits.getAll`](#openbankingdirectdebitsgetall)
-  * [`openbanking.directDebits.list`](#openbankingdirectdebitslist)
-  * [`openbanking.offers.getById`](#openbankingoffersgetbyid)
-  * [`openbanking.offers.list`](#openbankingofferslist)
-  * [`openbanking.parties.getByAccountId`](#openbankingpartiesgetbyaccountid)
-  * [`openbanking.parties.getList`](#openbankingpartiesgetlist)
-  * [`openbanking.parties.getList_0`](#openbankingpartiesgetlist_0)
-  * [`openbanking.products.getByAccountId`](#openbankingproductsgetbyaccountid)
-  * [`openbanking.products.list`](#openbankingproductslist)
-  * [`openbanking.scheduledPayments.getAll`](#openbankingscheduledpaymentsgetall)
-  * [`openbanking.scheduledPayments.getAll_0`](#openbankingscheduledpaymentsgetall_0)
-  * [`openbanking.standingOrders.get`](#openbankingstandingordersget)
-  * [`openbanking.standingOrders.getAll`](#openbankingstandingordersgetall)
-  * [`openbanking.statements.get`](#openbankingstatementsget)
-  * [`openbanking.statements.getAll`](#openbankingstatementsgetall)
-  * [`openbanking.statements.getDetails`](#openbankingstatementsgetdetails)
-  * [`openbanking.statements.getFile`](#openbankingstatementsgetfile)
-  * [`openbanking.transactions.getDetails`](#openbankingtransactionsgetdetails)
-  * [`openbanking.transactions.getDetails_0`](#openbankingtransactionsgetdetails_0)
-  * [`openbanking.transactions.getDetails_1`](#openbankingtransactionsgetdetails_1)
+  * [`openbankingaccountandtransaction.accountAccess.createConsent`](#openbankingaccountandtransactionaccountaccesscreateconsent)
+  * [`openbankingaccountandtransaction.accountAccess.deleteConsent`](#openbankingaccountandtransactionaccountaccessdeleteconsent)
+  * [`openbankingaccountandtransaction.accountAccess.getConsent`](#openbankingaccountandtransactionaccountaccessgetconsent)
+  * [`openbankingaccountandtransaction.accounts.get`](#openbankingaccountandtransactionaccountsget)
+  * [`openbankingaccountandtransaction.accounts.getAll`](#openbankingaccountandtransactionaccountsgetall)
+  * [`openbankingaccountandtransaction.balances.get`](#openbankingaccountandtransactionbalancesget)
+  * [`openbankingaccountandtransaction.balances.getAll`](#openbankingaccountandtransactionbalancesgetall)
+  * [`openbankingaccountandtransaction.beneficiaries.getAll`](#openbankingaccountandtransactionbeneficiariesgetall)
+  * [`openbankingaccountandtransaction.beneficiaries.getAll_0`](#openbankingaccountandtransactionbeneficiariesgetall_0)
+  * [`openbankingaccountandtransaction.directDebits.getAll`](#openbankingaccountandtransactiondirectdebitsgetall)
+  * [`openbankingaccountandtransaction.directDebits.list`](#openbankingaccountandtransactiondirectdebitslist)
+  * [`openbankingaccountandtransaction.offers.getById`](#openbankingaccountandtransactionoffersgetbyid)
+  * [`openbankingaccountandtransaction.offers.list`](#openbankingaccountandtransactionofferslist)
+  * [`openbankingaccountandtransaction.parties.getByAccountId`](#openbankingaccountandtransactionpartiesgetbyaccountid)
+  * [`openbankingaccountandtransaction.parties.getList`](#openbankingaccountandtransactionpartiesgetlist)
+  * [`openbankingaccountandtransaction.parties.getList_0`](#openbankingaccountandtransactionpartiesgetlist_0)
+  * [`openbankingaccountandtransaction.products.getByAccountId`](#openbankingaccountandtransactionproductsgetbyaccountid)
+  * [`openbankingaccountandtransaction.products.list`](#openbankingaccountandtransactionproductslist)
+  * [`openbankingaccountandtransaction.scheduledPayments.getAll`](#openbankingaccountandtransactionscheduledpaymentsgetall)
+  * [`openbankingaccountandtransaction.scheduledPayments.getAll_0`](#openbankingaccountandtransactionscheduledpaymentsgetall_0)
+  * [`openbankingaccountandtransaction.standingOrders.get`](#openbankingaccountandtransactionstandingordersget)
+  * [`openbankingaccountandtransaction.standingOrders.getAll`](#openbankingaccountandtransactionstandingordersgetall)
+  * [`openbankingaccountandtransaction.statements.get`](#openbankingaccountandtransactionstatementsget)
+  * [`openbankingaccountandtransaction.statements.getAll`](#openbankingaccountandtransactionstatementsgetall)
+  * [`openbankingaccountandtransaction.statements.getDetails`](#openbankingaccountandtransactionstatementsgetdetails)
+  * [`openbankingaccountandtransaction.statements.getFile`](#openbankingaccountandtransactionstatementsgetfile)
+  * [`openbankingaccountandtransaction.transactions.getDetails`](#openbankingaccountandtransactiontransactionsgetdetails)
+  * [`openbankingaccountandtransaction.transactions.getDetails_0`](#openbankingaccountandtransactiontransactionsgetdetails_0)
+  * [`openbankingaccountandtransaction.transactions.getDetails_1`](#openbankingaccountandtransactiontransactionsgetdetails_1)
 
 <!-- tocstop -->
 
 ## Installation<a id="installation"></a>
 <div align="center">
-  <a href="https://konfigthis.com/sdk-sign-up?company=Open%20Banking&serviceName=Account%20and%20Transaction&language=TypeScript">
+  <a href="https://konfigthis.com/sdk-sign-up?company=Open%20Banking&%20serviceName=Account%20and%20Transaction%20&language=TypeScript">
     <img src="https://raw.githubusercontent.com/konfig-dev/brand-assets/HEAD/cta-images/typescript-cta.png" width="70%">
   </a>
 </div>
@@ -57,21 +57,22 @@ Swagger for Account and Transaction API Specification
 ## Getting Started<a id="getting-started"></a>
 
 ```typescript
-import { OpenBanking } from "open-banking-account-and-transaction-typescript-sdk";
+import { OpenBankingAccountAndTransaction } from "open-banking-account-and-transaction-typescript-sdk";
 
-const openbanking = new OpenBanking({
+const openbankingaccountandtransaction = new OpenBankingAccountAndTransaction({
   // Defining the base path is optional and defaults to https://openbanking.org.uk
   // basePath: "https://openbanking.org.uk",
   oauthClientId: "CLIENT_ID",
   oauthClientSecret: "CLIENT_SECRET",
 });
 
-const createConsentResponse = await openbanking.accountAccess.createConsent({
-  Data: {
-    Permissions: ["ReadAccountsBasic"],
-  },
-  Risk: {},
-});
+const createConsentResponse =
+  await openbankingaccountandtransaction.accountAccess.createConsent({
+    Data: {
+      Permissions: ["ReadAccountsBasic"],
+    },
+    Risk: {},
+  });
 
 console.log(createConsentResponse);
 ```
@@ -79,19 +80,20 @@ console.log(createConsentResponse);
 ## Reference<a id="reference"></a>
 
 
-### `openbanking.accountAccess.createConsent`<a id="openbankingaccountaccesscreateconsent"></a>
+### `openbankingaccountandtransaction.accountAccess.createConsent`<a id="openbankingaccountandtransactionaccountaccesscreateconsent"></a>
 
 Create Account Access Consents
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const createConsentResponse = await openbanking.accountAccess.createConsent({
-  Data: {
-    Permissions: ["ReadAccountsBasic"],
-  },
-  Risk: {},
-});
+const createConsentResponse =
+  await openbankingaccountandtransaction.accountAccess.createConsent({
+    Data: {
+      Permissions: ["ReadAccountsBasic"],
+    },
+    Risk: {},
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -131,16 +133,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.accountAccess.deleteConsent`<a id="openbankingaccountaccessdeleteconsent"></a>
+### `openbankingaccountandtransaction.accountAccess.deleteConsent`<a id="openbankingaccountandtransactionaccountaccessdeleteconsent"></a>
 
 Delete Account Access Consents
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const deleteConsentResponse = await openbanking.accountAccess.deleteConsent({
-  consentId: "consentId_example",
-});
+const deleteConsentResponse =
+  await openbankingaccountandtransaction.accountAccess.deleteConsent({
+    consentId: "consentId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -174,16 +177,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.accountAccess.getConsent`<a id="openbankingaccountaccessgetconsent"></a>
+### `openbankingaccountandtransaction.accountAccess.getConsent`<a id="openbankingaccountandtransactionaccountaccessgetconsent"></a>
 
 Get Account Access Consents
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getConsentResponse = await openbanking.accountAccess.getConsent({
-  consentId: "consentId_example",
-});
+const getConsentResponse =
+  await openbankingaccountandtransaction.accountAccess.getConsent({
+    consentId: "consentId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -221,14 +225,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.accounts.get`<a id="openbankingaccountsget"></a>
+### `openbankingaccountandtransaction.accounts.get`<a id="openbankingaccountandtransactionaccountsget"></a>
 
 Get Accounts
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getResponse = await openbanking.accounts.get({
+const getResponse = await openbankingaccountandtransaction.accounts.get({
   accountId: "accountId_example",
 });
 ```
@@ -268,14 +272,16 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.accounts.getAll`<a id="openbankingaccountsgetall"></a>
+### `openbankingaccountandtransaction.accounts.getAll`<a id="openbankingaccountandtransactionaccountsgetall"></a>
 
 Get Accounts
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.accounts.getAll({});
+const getAllResponse = await openbankingaccountandtransaction.accounts.getAll(
+  {}
+);
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -309,14 +315,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.balances.get`<a id="openbankingbalancesget"></a>
+### `openbankingaccountandtransaction.balances.get`<a id="openbankingaccountandtransactionbalancesget"></a>
 
 Get Balances
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getResponse = await openbanking.balances.get({
+const getResponse = await openbankingaccountandtransaction.balances.get({
   accountId: "accountId_example",
 });
 ```
@@ -356,14 +362,16 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.balances.getAll`<a id="openbankingbalancesgetall"></a>
+### `openbankingaccountandtransaction.balances.getAll`<a id="openbankingaccountandtransactionbalancesgetall"></a>
 
 Get Balances
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.balances.getAll({});
+const getAllResponse = await openbankingaccountandtransaction.balances.getAll(
+  {}
+);
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -397,16 +405,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.beneficiaries.getAll`<a id="openbankingbeneficiariesgetall"></a>
+### `openbankingaccountandtransaction.beneficiaries.getAll`<a id="openbankingaccountandtransactionbeneficiariesgetall"></a>
 
 Get Beneficiaries
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.beneficiaries.getAll({
-  accountId: "accountId_example",
-});
+const getAllResponse =
+  await openbankingaccountandtransaction.beneficiaries.getAll({
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -444,14 +453,15 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.beneficiaries.getAll_0`<a id="openbankingbeneficiariesgetall_0"></a>
+### `openbankingaccountandtransaction.beneficiaries.getAll_0`<a id="openbankingaccountandtransactionbeneficiariesgetall_0"></a>
 
 Get Beneficiaries
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAll_0Response = await openbanking.beneficiaries.getAll_0({});
+const getAll_0Response =
+  await openbankingaccountandtransaction.beneficiaries.getAll_0({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -485,14 +495,15 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.directDebits.getAll`<a id="openbankingdirectdebitsgetall"></a>
+### `openbankingaccountandtransaction.directDebits.getAll`<a id="openbankingaccountandtransactiondirectdebitsgetall"></a>
 
 Get Direct Debits
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.directDebits.getAll({});
+const getAllResponse =
+  await openbankingaccountandtransaction.directDebits.getAll({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -526,14 +537,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.directDebits.list`<a id="openbankingdirectdebitslist"></a>
+### `openbankingaccountandtransaction.directDebits.list`<a id="openbankingaccountandtransactiondirectdebitslist"></a>
 
 Get Direct Debits
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const listResponse = await openbanking.directDebits.list({
+const listResponse = await openbankingaccountandtransaction.directDebits.list({
   accountId: "accountId_example",
 });
 ```
@@ -573,14 +584,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.offers.getById`<a id="openbankingoffersgetbyid"></a>
+### `openbankingaccountandtransaction.offers.getById`<a id="openbankingaccountandtransactionoffersgetbyid"></a>
 
 Get Offers
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getByIdResponse = await openbanking.offers.getById({
+const getByIdResponse = await openbankingaccountandtransaction.offers.getById({
   accountId: "accountId_example",
 });
 ```
@@ -620,14 +631,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.offers.list`<a id="openbankingofferslist"></a>
+### `openbankingaccountandtransaction.offers.list`<a id="openbankingaccountandtransactionofferslist"></a>
 
 Get Offers
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const listResponse = await openbanking.offers.list({});
+const listResponse = await openbankingaccountandtransaction.offers.list({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -661,16 +672,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.parties.getByAccountId`<a id="openbankingpartiesgetbyaccountid"></a>
+### `openbankingaccountandtransaction.parties.getByAccountId`<a id="openbankingaccountandtransactionpartiesgetbyaccountid"></a>
 
 Get Parties
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getByAccountIdResponse = await openbanking.parties.getByAccountId({
-  accountId: "accountId_example",
-});
+const getByAccountIdResponse =
+  await openbankingaccountandtransaction.parties.getByAccountId({
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -708,14 +720,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.parties.getList`<a id="openbankingpartiesgetlist"></a>
+### `openbankingaccountandtransaction.parties.getList`<a id="openbankingaccountandtransactionpartiesgetlist"></a>
 
 Get Parties
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getListResponse = await openbanking.parties.getList({
+const getListResponse = await openbankingaccountandtransaction.parties.getList({
   accountId: "accountId_example",
 });
 ```
@@ -755,14 +767,15 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.parties.getList_0`<a id="openbankingpartiesgetlist_0"></a>
+### `openbankingaccountandtransaction.parties.getList_0`<a id="openbankingaccountandtransactionpartiesgetlist_0"></a>
 
 Get Parties
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getList_0Response = await openbanking.parties.getList_0({});
+const getList_0Response =
+  await openbankingaccountandtransaction.parties.getList_0({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -796,16 +809,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.products.getByAccountId`<a id="openbankingproductsgetbyaccountid"></a>
+### `openbankingaccountandtransaction.products.getByAccountId`<a id="openbankingaccountandtransactionproductsgetbyaccountid"></a>
 
 Get Products
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getByAccountIdResponse = await openbanking.products.getByAccountId({
-  accountId: "accountId_example",
-});
+const getByAccountIdResponse =
+  await openbankingaccountandtransaction.products.getByAccountId({
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -843,14 +857,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.products.list`<a id="openbankingproductslist"></a>
+### `openbankingaccountandtransaction.products.list`<a id="openbankingaccountandtransactionproductslist"></a>
 
 Get Products
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const listResponse = await openbanking.products.list({});
+const listResponse = await openbankingaccountandtransaction.products.list({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -884,16 +898,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.scheduledPayments.getAll`<a id="openbankingscheduledpaymentsgetall"></a>
+### `openbankingaccountandtransaction.scheduledPayments.getAll`<a id="openbankingaccountandtransactionscheduledpaymentsgetall"></a>
 
 Get Scheduled Payments
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.scheduledPayments.getAll({
-  accountId: "accountId_example",
-});
+const getAllResponse =
+  await openbankingaccountandtransaction.scheduledPayments.getAll({
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -931,14 +946,15 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.scheduledPayments.getAll_0`<a id="openbankingscheduledpaymentsgetall_0"></a>
+### `openbankingaccountandtransaction.scheduledPayments.getAll_0`<a id="openbankingaccountandtransactionscheduledpaymentsgetall_0"></a>
 
 Get Scheduled Payments
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAll_0Response = await openbanking.scheduledPayments.getAll_0({});
+const getAll_0Response =
+  await openbankingaccountandtransaction.scheduledPayments.getAll_0({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -972,14 +988,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.standingOrders.get`<a id="openbankingstandingordersget"></a>
+### `openbankingaccountandtransaction.standingOrders.get`<a id="openbankingaccountandtransactionstandingordersget"></a>
 
 Get Standing Orders
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getResponse = await openbanking.standingOrders.get({
+const getResponse = await openbankingaccountandtransaction.standingOrders.get({
   accountId: "accountId_example",
 });
 ```
@@ -1019,14 +1035,15 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.standingOrders.getAll`<a id="openbankingstandingordersgetall"></a>
+### `openbankingaccountandtransaction.standingOrders.getAll`<a id="openbankingaccountandtransactionstandingordersgetall"></a>
 
 Get Standing Orders
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.standingOrders.getAll({});
+const getAllResponse =
+  await openbankingaccountandtransaction.standingOrders.getAll({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -1060,14 +1077,14 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.statements.get`<a id="openbankingstatementsget"></a>
+### `openbankingaccountandtransaction.statements.get`<a id="openbankingaccountandtransactionstatementsget"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getResponse = await openbanking.statements.get({
+const getResponse = await openbankingaccountandtransaction.statements.get({
   accountId: "accountId_example",
 });
 ```
@@ -1115,14 +1132,16 @@ The UTC ISO 8601 Date Time to filter statements TO NB Time component is optional
 ---
 
 
-### `openbanking.statements.getAll`<a id="openbankingstatementsgetall"></a>
+### `openbankingaccountandtransaction.statements.getAll`<a id="openbankingaccountandtransactionstatementsgetall"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getAllResponse = await openbanking.statements.getAll({});
+const getAllResponse = await openbankingaccountandtransaction.statements.getAll(
+  {}
+);
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -1164,17 +1183,18 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.statements.getDetails`<a id="openbankingstatementsgetdetails"></a>
+### `openbankingaccountandtransaction.statements.getDetails`<a id="openbankingaccountandtransactionstatementsgetdetails"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getDetailsResponse = await openbanking.statements.getDetails({
-  statementId: "statementId_example",
-  accountId: "accountId_example",
-});
+const getDetailsResponse =
+  await openbankingaccountandtransaction.statements.getDetails({
+    statementId: "statementId_example",
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -1216,17 +1236,18 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.statements.getFile`<a id="openbankingstatementsgetfile"></a>
+### `openbankingaccountandtransaction.statements.getFile`<a id="openbankingaccountandtransactionstatementsgetfile"></a>
 
 Get Statements
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getFileResponse = await openbanking.statements.getFile({
-  statementId: "statementId_example",
-  accountId: "accountId_example",
-});
+const getFileResponse =
+  await openbankingaccountandtransaction.statements.getFile({
+    statementId: "statementId_example",
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -1264,17 +1285,18 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.transactions.getDetails`<a id="openbankingtransactionsgetdetails"></a>
+### `openbankingaccountandtransaction.transactions.getDetails`<a id="openbankingaccountandtransactiontransactionsgetdetails"></a>
 
 Get Transactions
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getDetailsResponse = await openbanking.transactions.getDetails({
-  statementId: "statementId_example",
-  accountId: "accountId_example",
-});
+const getDetailsResponse =
+  await openbankingaccountandtransaction.transactions.getDetails({
+    statementId: "statementId_example",
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -1316,16 +1338,17 @@ Indicates the user-agent that the PSU is using.
 ---
 
 
-### `openbanking.transactions.getDetails_0`<a id="openbankingtransactionsgetdetails_0"></a>
+### `openbankingaccountandtransaction.transactions.getDetails_0`<a id="openbankingaccountandtransactiontransactionsgetdetails_0"></a>
 
 Get Transactions
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getDetails_0Response = await openbanking.transactions.getDetails_0({
-  accountId: "accountId_example",
-});
+const getDetails_0Response =
+  await openbankingaccountandtransaction.transactions.getDetails_0({
+    accountId: "accountId_example",
+  });
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>
@@ -1371,14 +1394,15 @@ The UTC ISO 8601 Date Time to filter transactions TO NB Time component is option
 ---
 
 
-### `openbanking.transactions.getDetails_1`<a id="openbankingtransactionsgetdetails_1"></a>
+### `openbankingaccountandtransaction.transactions.getDetails_1`<a id="openbankingaccountandtransactiontransactionsgetdetails_1"></a>
 
 Get Transactions
 
 #### 🛠️ Usage<a id="🛠️-usage"></a>
 
 ```typescript
-const getDetails_1Response = await openbanking.transactions.getDetails_1({});
+const getDetails_1Response =
+  await openbankingaccountandtransaction.transactions.getDetails_1({});
 ```
 
 #### ⚙️ Parameters<a id="⚙️-parameters"></a>

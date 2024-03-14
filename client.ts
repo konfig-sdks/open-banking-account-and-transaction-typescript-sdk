@@ -25,9 +25,9 @@ import {
   TransactionsApi,
 } from "./api";
 import { Configuration, ConfigurationParameters } from "./configuration";
-import { OpenBankingCustom } from "./client-custom";
+import { OpenBankingAccountAndTransactionCustom } from "./client-custom";
 
-export class OpenBanking extends OpenBankingCustom {
+export class OpenBankingAccountAndTransaction extends OpenBankingAccountAndTransactionCustom {
   readonly accountAccess: AccountAccessApi;
   readonly accounts: AccountsApi;
   readonly balances: BalancesApi;

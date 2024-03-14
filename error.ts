@@ -14,7 +14,7 @@ import type { AxiosError } from "axios";
 /**
  * This class provides a wrapper for network errors when making requests to Account and Transaction API Specification
  */
-export class OpenBankingError extends Error {
+export class OpenBankingAccountAndTransactionError extends Error {
   /**
    * The response body
    */
@@ -50,7 +50,7 @@ export class OpenBankingError extends Error {
 
   constructor(axiosError: AxiosError, responseBody: unknown) {
     super(axiosError.message);
-    this.name = "OpenBankingError";
+    this.name = "OpenBankingAccountAndTransactionError";
     this.code = axiosError.code;
     this.method = axiosError.config?.method?.toUpperCase();
     this.url = axiosError.config?.url;

@@ -16,7 +16,7 @@ import { RequiredError, RequestArgs } from "./base";
 import axios, { AxiosError, AxiosInstance, AxiosResponse } from 'axios';
 import { requestAfterHook } from "./requestAfterHook";
 import { requestBeforeUrlHook } from "./requestBeforeUrlHook";
-import { readableStreamToString, OpenBankingError, parseIfJson } from "./error";
+import { readableStreamToString, OpenBankingAccountAndTransactionError, parseIfJson } from "./error";
 import { jwtDecode } from "jwt-decode";
 
 /**
@@ -238,15 +238,15 @@ async function wrapAxiosRequest<R>(makeRequest: () => Promise<R>): Promise<R> {
                     e.response?.data instanceof ReadableStream
                     ? await readableStreamToString(e.response.data)
                     : e.response?.data
-                throw new OpenBankingError(e, parseIfJson(responseBody))
+                throw new OpenBankingAccountAndTransactionError(e, parseIfJson(responseBody))
             } catch (innerError) {
                 if (innerError instanceof ReferenceError) {
                     // Got: "ReferenceError: ReadableStream is not defined"
                     // This means we are in a Node environment so just throw the original error
-                    throw new OpenBankingError(e, e.response?.data)
+                    throw new OpenBankingAccountAndTransactionError(e, e.response?.data)
                 }
-                if (innerError instanceof OpenBankingError) {
-                    // Got "OpenBankingError" from the above try block
+                if (innerError instanceof OpenBankingAccountAndTransactionError) {
+                    // Got "OpenBankingAccountAndTransactionError" from the above try block
                     throw innerError;
                 }
                 // Something unexpected happened: propagate the error
