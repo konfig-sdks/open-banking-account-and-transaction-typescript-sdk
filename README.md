@@ -49,7 +49,7 @@ Swagger for Account and Transaction API Specification
 
 ## Installation<a id="installation"></a>
 <div align="center">
-  <a href="https://konfigthis.com/sdk-sign-up?company=Open%20Banking&%20serviceName=Account%20and%20Transaction%20&language=TypeScript">
+  <a href="https://konfigthis.com/sdk-sign-up?company=Open%20Banking&serviceName=Account%20and%20Transaction&language=TypeScript">
     <img src="https://raw.githubusercontent.com/konfig-dev/brand-assets/HEAD/cta-images/typescript-cta.png" width="70%">
   </a>
 </div>
